@@ -5,7 +5,7 @@ The form link cannot open in a separate page, but on the homepage.
 The registered user will receive a notification that he has successfully registered. 
  I could not output the data. But all registered users are stored in local storage in  array with objects.
 ---------------------------
-I cannot access the product images.all images are in folder publik/images
+I cannot access the product images.all images are in folder public/images
 ----------------------------
 I don't know why but i can't see my project with pages online again.
 ----------------------------
