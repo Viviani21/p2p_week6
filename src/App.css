@@ -104,7 +104,7 @@ i{
   overflow:hidden;
   background-color: white;
   box-shadow:rgba(79, 53, 48, 1);
-  border-bottom: 1px solid rgb(90, 153, 90);;
+  border-bottom: 1px solid #A68DAD;
   height: var(--navbar-height) !important;
   box-shadow: inset 0px 5px 5px 0px var(--background-color);
 }
@@ -366,12 +366,16 @@ nav.nav-links ul {
 
 /*---------------- Sing In Form ----------*/
 .formContainer{
-  border: 1px solid #A99B8A;
+  border: 1px solid  #A99B8A;
+  /* */
   padding:30px;
   box-shadow: inset 10px 11px 5px 0px #A99B8A;
  margin: 50px;
  color:var(--text-color);
  
+}
+.formContainer h4{
+  color:#915a9e ;
 }
 .col-md-6{
   padding: 10px 50px;
@@ -410,6 +414,12 @@ select:focus {
   color:var(--text-color);
 }
 
+form hr {
+  color: #6e1083 ;
+  
+  
+}
+
 /*----------CustomModal----------*/
 .modal-overlay {
   position: fixed;
@@ -430,4 +440,9 @@ select:focus {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   color:var(--text-color);
+}
+/*---------FilterFunc-------*/
+.img-fluid{
+  height: 300px;
+  width: 300px;
 }

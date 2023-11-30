@@ -20,7 +20,7 @@ import {useState} from 'react';
                     <h5 className="card-title">{herb.name}</h5>
                     <p className="card-text" >BBD {herb.best_before_date}</p>
                     <p className="card-price">{herb.price} € </p>
-                    <a className="btn btn-primary" href="/">See more</a>
+                    <a className="btn btn-primary" href="/">Learn more</a>
                 </div>                 
             </div>               
           </div>

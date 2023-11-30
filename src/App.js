@@ -2,7 +2,8 @@
 import './App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Products from './Products'
+import Products from './Products';
+import FilterFunc from './FilterFunc';
 
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
   return (
     <div className="App">
       < Header />
-      <Products/>
+      <FilterFunc/>
+     {/* <Products/>*/}
       < Footer />
+     
     </div>
   );
 }
